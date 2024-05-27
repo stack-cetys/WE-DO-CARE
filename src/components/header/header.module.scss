@@ -1,0 +1,29 @@
+a {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: visible;
+  align-content: center;
+  align-self: center;
+}
+.logo {
+  height: 3rem;
+  flex-grow: 1;
+}
+.nav-link {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  color: #000000;
+  gap: 2rem;
+  flex-grow: 1;
+}
